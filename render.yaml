@@ -1,0 +1,6 @@
+type: web
+name: ai-nutrition-server
+env: python
+plan: free
+buildCommand: ""
+startCommand: gunicorn main:app --bind 0.0.0.0:$PORT
